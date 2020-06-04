@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="ForlaEditor">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+        </Prop>
+        <Prop>
+          <Id>AttID</Id>
+          <Name>Attribute</Name>
+          <Type>Custom</Type>
+          <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+          <Metadata>
+            <Value name="FlagHideAttributes">False</Value>
+            <Value name="FlagSetValueMethod">SetAttribute</Value>
+            <Value name="FlagGetValueMethod">GetAttribute</Value>
+            <Value name="FlagScope">DesignTime</Value>
+            <Value name="FlagDataTypeFilter">character,varchar,longvarchar</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>Theme</Id>
+          <Name>Theme</Name>
+          <Type>Combo</Type>
+          <Default>Default</Default>
+          <Metadata />
+          <Values>
+            <Value id="default" desc="Default" />
+            <Value id="royal" desc="Royal" />
+            <Value id="dark" desc="Dark" />
+            <Value id="dark" desc="Dark" />
+            <Value id="red" desc="Red" />
+            <Value id="gray" desc="Gray" />
+          </Values>
+        </Prop>
+        <Prop>
+          <Id>Toolbar</Id>
+          <Name>Toolbar</Name>
+          <Type>Combo</Type>
+          <Default>Default</Default>
+          <Metadata />
+          <Values>
+            <Value id="default" desc="Default" />
+            <Value id="inline" desc="InLine" />
+            <Value id="selectiondetails" desc="SelectionDetails" />
+            <Value id="sticky" desc="Sticky" />
+            <Value id="bottom" desc="Bottom" />
+            <Value id="offset" desc="Offset" />
+          </Values>
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.0</Version>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <DefinitionDirectory>C:\Program Files (x86)\GeneXus\GeneXus15U12\UserControls\ForlaEditor</DefinitionDirectory>
+  <IncludeInControlInfo>true</IncludeInControlInfo>
+  <IsEditable>false</IsEditable>
+  <SupportFiles>
+    <Directory>css</Directory>
+    <Directory>html</Directory>
+    <Directory>img</Directory>
+    <Directory>js</Directory>
+  </SupportFiles>
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>ForlaEditorRender.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <ObjClass>ForlaEditor</ObjClass>
+  <Description>FroalaEditor</Description>
+  <OldDescriptions />
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>ForlaEditor</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <File>js\jquery.min.js</File>
+    <File>js\froala_editor.min.js</File>
+    <File>js\codemirror.min.js</File>    
+    <File>js\xml.min.js</File>    
+    <File>css\froala_editor.css</File>
+    <File>css\froala_style.css</File>
+    <File>css\plugins\char_counter.css</File>
+    <File>css\plugins\char_counter.min.css</File>
+    <File>css\plugins\code_view.css</File>
+    <File>css\plugins\code_view.min.css</File>
+    <File>css\plugins\colors.css</File>
+    <File>css\plugins\colors.min.css</File>
+    <File>css\plugins\draggable.css</File>
+    <File>css\plugins\draggable.min.css</File>
+    <File>css\plugins\emoticons.css</File>
+    <File>css\plugins\emoticons.min.css</File>
+    <File>css\plugins\file.css</File>
+    <File>css\plugins\file.min.css</File>
+    <File>css\plugins\fullscreen.css</File>
+    <File>css\plugins\fullscreen.min.css</File>
+    <File>css\plugins\help.css</File>
+    <File>css\plugins\help.min.css</File>
+    <File>css\plugins\image.css</File>
+    <File>css\plugins\image.min.css</File>
+    <File>css\plugins\image_manager.css</File>
+    <File>css\plugins\image_manager.min.css</File>
+    <File>css\plugins\line_breaker.css</File>
+    <File>css\plugins\line_breaker.min.css</File>
+    <File>css\plugins\quick_insert.css</File>
+    <File>css\plugins\quick_insert.min.css</File>
+    <File>css\plugins\special_characters.css</File>
+    <File>css\plugins\special_characters.min.css</File>
+    <File>css\plugins\table.css</File>
+    <File>css\plugins\table.min.css</File>
+    <File>css\plugins\video.css</File>
+    <File>css\plugins\video.min.css</File>
+    <File>css\third_party\embedly.css</File>
+    <File>css\third_party\font_awesome.css</File>
+    <File>css\third_party\image_tui.css</File>
+    <File>css\third_party\spell_checker.css</File>
+    <File>js\plugins\align.min.js</File>
+    <File>js\plugins\char_counter.min.js</File>
+    <File>js\plugins\code_beautifier.min.js</File>
+    <File>js\plugins\code_view.min.js</File>
+    <File>js\plugins\colors.min.js</File>
+    <File>js\plugins\draggable.min.js</File>
+    <File>js\plugins\emoticons.min.js</File>
+    <File>js\plugins\entities.min.js</File>
+    <File>js\plugins\file.min.js</File>
+    <File>js\plugins\font_family.min.js</File>
+    <File>js\plugins\font_size.min.js</File>
+    <File>js\plugins\forms.min.js</File>
+    <File>js\plugins\fullscreen.min.js</File>
+    <File>js\plugins\help.min.js</File>
+    <File>js\plugins\image.min.js</File>
+    <File>js\plugins\image_manager.min.js</File>
+    <File>js\plugins\inline_class.min.js</File>
+    <File>js\plugins\inline_style.min.js</File>
+    <File>js\plugins\line_breaker.min.js</File>
+    <File>js\plugins\line_height.min.js</File>
+    <File>js\plugins\link.min.js</File>
+    <File>js\plugins\lists.min.js</File>
+    <File>js\plugins\paragraph_format.min.js</File>
+    <File>js\plugins\paragraph_style.min.js</File>
+    <File>js\plugins\print.min.js</File>
+    <File>js\plugins\quick_insert.min.js</File>
+    <File>js\plugins\quote.min.js</File>
+    <File>js\plugins\save.min.js</File>
+    <File>js\plugins\special_characters.min.js</File>
+    <File>js\plugins\table.min.js</File>
+    <File>js\plugins\url.min.js</File>
+    <File>js\plugins\video.min.js</File>
+    <File>js\plugins\word_paste.min.js</File>
+    <File>js\init.js</File>
+  </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>ForlaEditor</Name>
+  </Constructor>
+  <PropertiesDefinition>ForlaEditorProperties.xml</PropertiesDefinition>
+  <DesignRender>ForlaEditorRender.xsl</DesignRender>
+  <PlatformDefault>0</PlatformDefault>
+  <iOS_PlatformDefault>0</iOS_PlatformDefault>
+  <Android_PlatformDefault>0</Android_PlatformDefault>
+  <ControlType />
+  <Categories />
+  <Events>
+    <Event>ButtonPressed</Event>
+    <Event>KeyUp</Event>
+  </Events>
+  <Methods>
+    <Method>
+      <Name>SetMode</Name>
+      <Signature>SetMode(editorMode: FckEditorModes, text: Character)</Signature>
+      <Parameters>
+        <Parameter>FckEditorModes</Parameter>
+        <Parameter>Character</Parameter>
+      </Parameters>
+    </Method>
+    <Method>
+      <Name>SetMenu</Name>
+      <Signature>SetMenu(menu:FckEditorMenu)</Signature>
+      <Parameters>
+        <Parameter>FckEditorMenu</Parameter>
+      </Parameters>
+    </Method>
+    <Method>
+      <Name>SetContextMenu</Name>
+      <Signature>SetContextMenu(menu:FckEditorMenu)</Signature>
+      <Parameters>
+        <Parameter>FckEditorMenu</Parameter>
+      </Parameters>
+    </Method>
+    <Method>
+      <Name>InsertHtml</Name>
+      <Signature>InsertHtml(code:Character)</Signature>
+      <Parameters>
+        <Parameter>Character</Parameter>
+      </Parameters>
+    </Method>
+  </Methods>
+  <Actions />
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+</ControlDefinition>
